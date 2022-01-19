@@ -43,20 +43,20 @@ body{
     left:0;
     bottom:0;
 }
-#blog:checked ~ nav .slider{
-    left : 20%;
+#home:checked ~ nav .slider{
+    left : 0%;
 
+}
+#blog:checked ~ nav .slider{
+    left:20%;
 }
 #code:checked ~ nav .slider{
     left:40%;
-}
-#blog:checked ~ nav .slider{
-    left:60%
 
 }
 #Help:checked ~ nav .slider{
-    left:80%;
+    left:60%;
 }
 #about:checked ~ nav .slider{
-    left:100;
+    left:80%;
 }
