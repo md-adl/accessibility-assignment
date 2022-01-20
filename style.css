@@ -1,5 +1,5 @@
 body{
-    background: blue;
+    background:#17a2b8;
     overflow: hidden;
 }
 .wraper{
@@ -24,16 +24,28 @@ body{
     width: 80%;
     display: flex;
     align-items: center;
-    background:#ff0000;
+    
 }
 .wraper nav label{
-    display: black;
+    display: block;
     height: 100%;
     width: 100%;
     cursor: pointer;
     text-align: center;
     line-height: 50px;
+    color:#17a2b8;
+    position: relative;
+    z-index: 1;
+
 }
+#i1:checked ~ nav label.i1,
+#i2:checked ~ nav label.i1,
+#i3:checked ~ nav label.i1,
+#i4:checked ~ nav label.i1,
+#i5:checked ~ nav label.i1{
+    color:#fff;
+}
+
 .wraper nav .slider{
     position: absolute;
     height:100%;
@@ -42,21 +54,22 @@ body{
     z-index:0;
     left:0;
     bottom:0;
+    transition: all 0.3s ;
 }
-#home:checked ~ nav .slider{
+#i1:checked ~ nav .slider{
     left : 0%;
 
 }
-#blog:checked ~ nav .slider{
+#i2:checked ~ nav .slider{
     left:20%;
 }
-#code:checked ~ nav .slider{
+#i3:checked ~ nav .slider{
     left:40%;
 
 }
-#Help:checked ~ nav .slider{
+#i4:checked ~ nav .slider{
     left:60%;
 }
-#about:checked ~ nav .slider{
+#i5:checked ~ nav .slider{
     left:80%;
 }
