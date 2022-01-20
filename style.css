@@ -46,30 +46,4 @@ body{
     color:#fff;
 }
 
-.wraper nav .slider{
-    position: absolute;
-    height:100%;
-    width:20%;
-    background:#008000;
-    z-index:0;
-    left:0;
-    bottom:0;
-    transition: all 0.3s ;
-}
-#i1:checked ~ nav .slider{
-    left : 0%;
 
-}
-#i2:checked ~ nav .slider{
-    left:20%;
-}
-#i3:checked ~ nav .slider{
-    left:40%;
-
-}
-#i4:checked ~ nav .slider{
-    left:60%;
-}
-#i5:checked ~ nav .slider{
-    left:80%;
-}
