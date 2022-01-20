@@ -39,10 +39,10 @@ body{
 
 }
 #i1:checked ~ nav label.i1,
-#i2:checked ~ nav label.i1,
-#i3:checked ~ nav label.i1,
-#i4:checked ~ nav label.i1,
-#i5:checked ~ nav label.i1{
+#i2:checked ~ nav label.i2,
+#i3:checked ~ nav label.i3,
+#i4:checked ~ nav label.i4,
+#i5:checked ~ nav label.i5{
     color:#fff;
 }
 
